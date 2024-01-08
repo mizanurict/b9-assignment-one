@@ -225,11 +225,20 @@ span {
 .holiday-sale-picture {
   display: flex;
   margin: 20px auto;
-  width: 82.4%;
+  width: 88%;
   max-width: 1600px;
 }
-.holiday-sale-picture .pic-two{
-    margin-bottom: -24px;
+.background-picture{
+  background-image: url('../images/rectangle1.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 450px;
+}
+.holiday-sale-picture .discout-fifty{
+  margin-top: 80px;
+}
+.holiday-sale-picture >p{
+  margin-top: 200px;
 }
 .bottom-background {
   height: 200px;
