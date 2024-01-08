@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+span {
+  color: red;
+}
 
 .header {
   font-family: "Merriweather", serif;
@@ -146,53 +149,92 @@
   margin: 30px auto;
   width: 82%;
   max-width: 1600px;
-  
 }
-.best-offer-container{
-    display: flex;
-    font-family: "Inter", sans-serif;
+.best-offer-container {
+  display: flex;
+  font-family: "Inter", sans-serif;
 }
 .best-offer-container .best-offer-left {
-    margin-top: 80px;
-    width: 33%;
+  margin-top: 80px;
+  width: 42%;
 }
-.best-offer-container .best-offer-left h4{
-    color: #f00;
-    font-weight: 500;
+.best-offer-container .best-offer-left h4 {
+  color: #f00;
+  font-weight: 500;
 }
 .best-offer-left .title {
-    font-size: 32px;
-    font-weight: 700;
-    margin-top: 3px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 3px;
 }
-.best-offer-left .desc{
-    margin-top: 10px;
-    color: rgba(7, 2, 17, 0.60);
-    line-height: 27px;
+.best-offer-left .desc {
+  margin-top: 10px;
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 25px;
 }
 .best-offer-middle {
-    width: 33%;
+  width: 25%;
+  margin-left: 50px;
 }
-.best-offer-middle p img{
-    border: 10px solid red;
-    border-radius: 50%;
-    padding: 20px;
+.best-offer-middle p img {
+  border: 10px solid red;
+  border-radius: 50%;
+  padding: 20px;
 }
 
-.best-offer-right{
-    width: 33%;
-    margin-top: 80px;
-    margin-left: 50px;
-    padding-left: 50px;
+.best-offer-right {
+  width: 33%;
+  margin-top: 80px;
+  margin-left: 150px;
+  padding-left: 50px;
 }
-.best-offer-right h2{
-    color: red;
+.best-offer-right h2 {
+  color: red;
 }
-.best-offer-right >p{
-    width: 80%;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    line-height: 27px;
+.best-offer-right > p {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 27px;
+}
+/* holiday sale section  */
+.holiday-sale {
+  margin: 30px auto;
+  width: 82%;
+  max-width: 1600px;
+}
+.holiday-sale-title {
+  text-align: center;
+}
+.holiday-sale-title > h4 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.holiday-sale-title .discount {
+  font-family: "Merriweather", serif;
+  font-size: 46px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.holiday-sale-title .desc {
+  font-family: "Inter", sans-serif;
+  margin: 20px 250px;
+  color: rgba(7, 2, 17, 0.6);
+}
+.holiday-sale-picture {
+  display: flex;
+  margin: 20px auto;
+  width: 82.4%;
+  max-width: 1600px;
+}
+.holiday-sale-picture .pic-two{
+    margin-bottom: -24px;
+}
+.bottom-background {
+  height: 200px;
+  background-color: #f00;
+  border-radius: 10px 0 10px 10px;
 }
 
 /* section awesome  */
@@ -227,6 +269,11 @@
 .awesome-picture img {
   width: 350px;
   height: 350px;
+}
+
+.awesome-picture img:hover{
+    box-shadow: 10px 10px 5px lightblue ;
+    border-radius: 10px;
 }
 
 /* subscribe section  */
